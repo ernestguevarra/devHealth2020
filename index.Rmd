@@ -34,6 +34,15 @@ mono_light(
 )
 ```
 
+class: inverse, center, middle
+
+`r fontawesome::fa("envelope", fill = "white")` ernest@guevarra.io
+
+`r fontawesome::fa("globe", fill = "white")` ernest.guevarra.io
+
+`r fontawesome::fa("linkedin", fill = "white")` ernestguevarra
+
+---
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Street_Child%2C_Srimangal_Railway_Station.jpg/1024px-Street_Child%2C_Srimangal_Railway_Station.jpg)
 background-size: cover
 class: inverse
