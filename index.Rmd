@@ -29,6 +29,9 @@ mono_light(
   header_font_google = google_font("Fira Sans"),
   text_font_google   = google_font("Fira Sans Condensed"),
   text_font_size = "1.2em",
+  header_h1_font_size = "50px",
+  header_h2_font_size = "40px",
+  header_h3_font_size = "30px",
   code_font_google   = google_font("Fira Mono"),
   text_slide_number_font_size = "0.5em"
 )
@@ -236,8 +239,6 @@ class: top
 
 ---
 # Food fortification - Rajasthan context
-
-.center[![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Map_rajasthan_dist_7_div.png/264px-Map_rajasthan_dist_7_div.png)]
 
 - In 2010, Global Alliance for Improved Nutrition (GAIN) started voluntary fortification programme in Rajasthan
 
