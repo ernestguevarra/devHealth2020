@@ -1,0 +1,294 @@
+---
+title: "Development and Health"
+subtitle: "Concepts and Case Studies"
+author: "Ernest Guevarra"
+date: "4 March 2020" #`r Sys.Date()`
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+if(!require(remotes)) install.packages("remotes")
+if(!require(fontawesome)) remotes::install_github("rstudio/fontawesome")
+```
+
+```{r xaringan-themer, include = FALSE}
+library(xaringanthemer)
+mono_light(
+  base_color = "#002147",
+  title_slide_background_image = "",
+  title_slide_background_size = "cover",
+  header_font_google = google_font("Fira Sans"),
+  text_font_google   = google_font("Fira Sans Condensed"),
+  text_font_size = "1.2em",
+  code_font_google   = google_font("Fira Mono"),
+  text_slide_number_font_size = "0.5em"
+)
+```
+
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Street_Child%2C_Srimangal_Railway_Station.jpg/1024px-Street_Child%2C_Srimangal_Railway_Station.jpg)
+background-size: cover
+class: inverse
+
+# "The biggest enemy of health in the developing world is poverty."
+
+### Kofi Annan
+
+???
+
+Image credit: Md. Tanvirul Islam [GFDL (http://www.gnu.org/copyleft/fdl.html) or GFDL (http://www.gnu.org/copyleft/fdl.html)]
+
+---
+# Outline
+
+1. Definitions
+
+2. Theoretical frameworks
+
+3. Case Studies
+
+4. Summary
+
+---
+class: inverse, center, middle
+
+# What is development?
+
+---
+# Points to consider about development
+
+- Developed vs Underdeveloped
+
+    - How is it determined?
+    - Who determines?
+    
+
+- $\text{Developed} ~ = ~ \text{Wealthy?}$; $\text{Underdeveloped} ~ = ~ \text{Poor?}$
+
+    - Measures of poverty - e.g., income, MPI
+
+    
+- Well-being
+
+    - Measures of well-being
+    - Can be related to health?
+
+---
+class: inverse, center, middle
+
+# What is health?
+
+---
+# WHO definition of health
+
+## "...a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity."
+
+- Healthy vs Unhealthy
+
+    - Measures of health
+    
+    
+- Well-being
+
+    - can be related to development?
+
+---
+class: inverse, center, middle
+
+# Development and Health
+
+---
+# NICE conceptual framework for public health
+
+.center[![](https://ars.els-cdn.com/content/image/1-s2.0-S0033350608002795-gr1.jpg)]
+
+---
+# UNICEF conceptual framework of undernutrition
+
+.center[![](https://maan.ifoam.bio/download/attachments/7963205/Grafik_Malnutrition.jpg?version=1&modificationDate=1458750644000&api=v2)]
+
+<!---
+.center[![](https://openi.nlm.nih.gov/imgs/512/240/4428483/PMC4428483_fnut-01-00013-g001.png?keywords=undernutrition)]
+--->
+
+---
+# Conceptual pathways between agriculture and nutrition
+
+.center[![](https://www.spring-nutrition.org/sites/default/files/publications/briefs/tb1_f1.jpg)]
+
+---
+class: inverse, center, middle
+
+# Case studies
+
+---
+background-image: url(https://odihpn.org/wp-content/uploads/2012/03/6c52631ec3d4cddfdab5a34581dd3c32-800x500.jpg)
+background-size: contain
+class: inverse
+
+# Productive Safety Net Programme (PSNP) Ethiopia
+---
+# PSNP Ethiopia - overview
+
+- Established in 2005
+
+- Aimed at enabling the rural poor facing chronic food insecurity to resist shocks, create assets and become food self-sufficient
+
+- Major goals:
+
+    - Support the rural transformation process;
+    
+    - Prevent long-term consequences of short-term food inaccessibility;
+    
+    - Encourage households to engage in production and investment; and
+    
+    - Promote market development by increasing household purchasing power.
+---
+# PSNP Ethiopia - mechanics
+
+- Intervention is a combination of cash and food transfers based on season and need
+
+- Food given primarily in the lean season between June and August
+
+- Vulnerable households receive six months of assistance annualy to protect them from acute food insecurity
+
+- Transfers are conditional; able-bodied members of the beneficiary households must participate in productive activities that will build more resilient livelihoods such as rehabilitating land and water resources and developing community infrastructure, including rural road rehabilitation and building schools and clinics
+
+---
+# PSNP Ethiopia - preliminary impact results
+
+- Nutrition
+
+    - No impact on nutrition (HAZ and stunting) of younger children in beneficiary households
+
+    - No impact on nutrition between younger children (under 3 years) and older children (3 to 5 years)
+
+    - No impact on nutrition between male and female children
+
+- Food security
+
+    - Positive impact on food security
+
+---
+# PSNP Ethiopia - reasons for impact results
+
+- Irregular receipt of cash transfers
+
+    - Tendency to save transfers in the form of livestock
+    - At times of shock, households with irregular transfers are more likely to sell their livestock
+    - Households with irregular transfers have much lower improvement in self-perceived welfare
+    
+- Receipt of lesser than actual amount of cash transfers
+
+    - Beneficiaries expect 1200 Birr a month but some receive much less than this
+    
+- Limited productive opportunities on top of cash transfers
+
+---
+background-image: url(https://www.alimentarium.org/en/system/files/styles/full_wide/private/thumbnails/image/©Giorgio-Pesce-Atelier-Poisson_cover_food_fortification_01_0.jpg?itok=Ym59xss2)
+background-size: contain
+class: top
+
+# Large-scale food fortification programme in Rajasthan State, India
+
+---
+# Food fortification - overview
+
+- Deliberately increasing the content of one or more essential micronutrients to commonly consumed foods (vehicle) so as to provide public health benefits
+
+- Micronutrients are piggybacked on consumption of these foods on the basis (or the assumption) that these foods are commonly consumed
+
+- Can be a highly cost-effective approach to reaching a large proportion of the population without needing to change behaviours
+
+- Programme used to increase micronutrient intake in diet
+
+---
+# Food fortification - requirements
+
+- Vehicle is universally or nearly universally consumed by the target population;
+
+- Production, processing and distribution of vehicle is highly consolidated or centralised;
+
+- Fortification addresses a specific identified micronutrient need in the target population
+
+- Fortificant must be bioavailable, safe, and have favourable organoleptic properties
+
+- Levels of fortification is informed by consumption patterns of the target population
+
+- Political, financial and scientific consensus to sustain the programme
+
+---
+# Food fortification - Rajasthan context
+
+.center[![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Map_rajasthan_dist_7_div.png/264px-Map_rajasthan_dist_7_div.png)]
+
+- In 2010, Global Alliance for Improved Nutrition (GAIN) started voluntary fortification programme in Rajasthan
+
+- Rajasthan has elevated prevalences of key nutritional indicators relative to national averages
+
+- Rajasthan is involved in the Indian Universal Salt Iodization programme
+
+- Rajasthan distributes atta wheat flour fortified with iron and folic acid through the public distribution system (PDS)
+
+---
+# Food fortification - results
+
+- High consumption of atta flour vehicle but most of the population had no exposure to fortifiable atta wheat flour due to lack of consolidation or centralisation of production and processing of the vehicle
+
+- Majority of fortifiable atta wheat flour is fortified (90%) but fewer than 1% are adequately fortified
+
+- Atta flour fortification programme fails to reach at-risk population
+
+- Oil vehicle is fortifiable but consumption of fortifiable oil is higher in households not at-risk compared to those at risk
+
+---
+background-image: url(https://journals.plos.org/plosone/article/figure/image?size=large&id=10.1371/journal.pone.0163176.g006)
+background-size: contain
+
+---
+background-image: url(https://journals.plos.org/plosone/article/figure/image?size=large&id=10.1371/journal.pone.0163176.g007)
+background-size: contain
+
+---
+background-image: url(https://www.opml.co.uk/files/Projects/Images/school-children-africa-banner.png)
+background-size: cover
+class: inverse
+
+# Child Development Grant Programme (CDGP) in northern Nigeria
+
+---
+# CDGP Nigeria - overview
+
+- Five-year programme in Jigawa State and Zamfara State, northern Nigeria that involves monthly, unconditional cash grant coupled with behaviour change communication (BCC) to address maternal education, healthcare facility access, household economic status, infant feeding, food consumption and women's empowerment
+
+- Targets women from  pregnancy until the child reaches two years old
+
+---
+# CDGP Nigeria - results
+
+- 55% of pregnant women beneficiaries attend antenatal care in Jigawa (45% baseline)
+- Nearly all (99%) of beneficiaries reported food as one of the items they spent money on
+- Thirty-nine per cent of respondents solely spend the cash transfer on purchase of food and food-related items
+- Programme coverage is high
+
+---
+# Summary
+
+- Links between development and health are a network of various cause and effects
+
+- The types of interventions are determined by how development is defined and conceptualised
+
+- Health is either a direct aim or goal (specific interventions) or an indirect or unstated objective (sensitive interventions)
+
+- Coverage and the various factors that contribute or impede its attainment are critical factors that are more often than not implicitly assumed to be high
+
+- Measurement of impact (i.e., effects of development interventions on health outcomes) would require more nuanced approaches that are able to account for complexity of the network of factors and interactions that contribute or impede success
+
